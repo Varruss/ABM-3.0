@@ -10,10 +10,28 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("All About Me")
+                .font(.largeTitle)
+            NavigationStack {
+                ZStack {
+                    NavigationLink {
+                        JonasView()
+                    } label: {
+                        Text("Jonas")
+                            .foregroundStyle(.black)
+                            .frame(width: 200, height: 100)
+                            .font(.title)
+                            .background(RoundedRectangle(cornerRadius: 25).fill(Color.red).shadow(radius: 3))
+                    }
+                }
+            
+                //  NavigationLink {
+                //     QuinView()
+                // } label: {
+                //      Text("Quin")
+                // }
+            }
+        
         }
         .padding()
     }
