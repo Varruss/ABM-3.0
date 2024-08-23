@@ -86,7 +86,7 @@ struct QuinView: View {
                 
             }
         }
-    
+
 
 
 #Preview {
