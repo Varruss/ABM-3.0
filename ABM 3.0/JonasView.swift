@@ -43,6 +43,9 @@ struct JonasView: View {
                         .background(RoundedRectangle(cornerRadius: 25).fill(Color.white).border(Color.black, width: 6))
                     
                 })
+                .alert("That's the lie", isPresented: $showingAlertlie) {
+                    Button("OK", role: .cancel) { }
+                }
                 Button(action: {
                     showingAlerttrue1 = true
                 }, label: {
@@ -51,6 +54,9 @@ struct JonasView: View {
                         .foregroundColor(.black)
                         .background(RoundedRectangle(cornerRadius: 25).fill(Color.white).border(Color.black, width: 6))
                 })
+                .alert("That's the Truth", isPresented: $showingAlerttrue1) {
+                    Button("OK", role: .cancel) { }
+                }
                 Button(action: {
                     showingAlerttrue2 = true
                 }, label: {
@@ -59,10 +65,11 @@ struct JonasView: View {
                         .foregroundColor(.black)
                         .background(RoundedRectangle(cornerRadius: 25).fill(Color.white).border(Color.black, width: 6))
                 })
+                .alert("That's the truth", isPresented: $showingAlerttrue2) {
+                    Button("OK", role: .cancel) { }
+                }
             }
-            .alert("That's the lie", isPresented: $showingAlertlie) {
-                Button("OK", role: .cancel) { }
-            }
+           
         }
     }
 }

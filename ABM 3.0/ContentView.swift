@@ -24,14 +24,16 @@ struct ContentView: View {
                             .background(RoundedRectangle(cornerRadius: 25).fill(Color.red).shadow(radius: 3))
                     }
                 }
-            
-                //  NavigationLink {
-                //     QuinView()
-                // } label: {
-                //      Text("Quin")
-                // }
+                .padding()
+                ZStack{
+                    NavigationLink {
+                        QuinView()
+                    } label: {
+                        Text("Quin")
+                    }
+                }
             }
-        
+            
         }
         .padding()
     }
