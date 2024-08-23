@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4B6C432C78C83300233EE0 /* QuinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4B6C422C78C83300233EE0 /* QuinView.swift */; };
 		EEFF7A1B2C78C629004673E6 /* ABM_3_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF7A1A2C78C629004673E6 /* ABM_3_0App.swift */; };
 		EEFF7A1D2C78C629004673E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF7A1C2C78C629004673E6 /* ContentView.swift */; };
 		EEFF7A1F2C78C62A004673E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFF7A1E2C78C62A004673E6 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB4B6C422C78C83300233EE0 /* QuinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinView.swift; sourceTree = "<group>"; };
 		EEFF7A172C78C629004673E6 /* ABM 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABM 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFF7A1A2C78C629004673E6 /* ABM_3_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABM_3_0App.swift; sourceTree = "<group>"; };
 		EEFF7A1C2C78C629004673E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				EEFF7A1A2C78C629004673E6 /* ABM_3_0App.swift */,
 				EEFF7A282C78C764004673E6 /* JonasView.swift */,
+				AB4B6C422C78C83300233EE0 /* QuinView.swift */,
 				EEFF7A1C2C78C629004673E6 /* ContentView.swift */,
 				EEFF7A1E2C78C62A004673E6 /* Assets.xcassets */,
 				EEFF7A202C78C62A004673E6 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFF7A1D2C78C629004673E6 /* ContentView.swift in Sources */,
+				AB4B6C432C78C83300233EE0 /* QuinView.swift in Sources */,
 				EEFF7A1B2C78C629004673E6 /* ABM_3_0App.swift in Sources */,
 				EEFF7A292C78C764004673E6 /* JonasView.swift in Sources */,
 			);

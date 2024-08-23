@@ -49,7 +49,7 @@ struct QuinView: View {
         Text("My dad was in the army for 8 years")
             .padding()
         
-        Text("  ")
+        Text("")
     }
 }
 
