@@ -25,19 +25,24 @@ struct ContentView: View {
                     }
                 }
                 .padding()
-                ZStack{
-                    NavigationLink {
-                        QuinView()
-                    } label: {
-                        Text("Quin")
-                    }
+                
+                
+                NavigationLink {
+                    QuinView()
+                } label: {
+                    Text("Quin")
+                        .foregroundStyle(.cyan)
+                        .frame(width: 200, height: 100)
+                        .font(.title)
+                        .background(RoundedRectangle(cornerRadius: 25).fill(Color.white).shadow(radius: 3))
                 }
             }
-            
         }
-        .padding()
+        
     }
 }
+    
+
 
 #Preview {
     ContentView()
